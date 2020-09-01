@@ -25,7 +25,54 @@
             font-size: 42px;
         }
     .title-text{
-        text-align: center;margin-top: 5px; 
+        text-align: center;
+        margin-top: 5px; 
     }
+
+
+/* navegacion code */
+.viz-navegacion div {
+    padding : .4rem 0px;
+}
+.viz-navegacion div p {
+    margin-bottom: 0px;
+    font-size: .8rem;
+}
+.viz-navegacion div span {
+    
+    font-size: 30px;
+}
+
+
+@media (min-width: 400px) {
+    .viz-navegacion{
+        bottom: 0.4rem;
+        border-radius: 15px !important;
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media (max-width: 250px){
+    .viz-navegacion div p {
+        display: none;
+    }
+    .viz-navegacion div span {
+    
+        margin: .4rem 0px;
+    }
+}
+
+/*     
+        border-bottom-radius-left : 15px
+        border-top-radius-left : 15px
+        
+        
+*/
+
+
+
 
     

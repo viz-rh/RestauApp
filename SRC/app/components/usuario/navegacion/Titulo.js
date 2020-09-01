@@ -2,6 +2,7 @@ import React  from 'react';
 
 function Titulo(props) {
 
+  
     return (
         <div className="app-title-viz">
             <div onClick="regresar();" className="regresar app-title-button-back"> 
@@ -11,7 +12,7 @@ function Titulo(props) {
 	    	</div>
     );
   }
-  
+
   export default Titulo;
 
 

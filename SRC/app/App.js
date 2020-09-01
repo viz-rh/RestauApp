@@ -17,15 +17,14 @@ class App extends Component {
         return(
             <div>
                 {/* navegacion */}
-               <Titulo Title="RestauApp"></Titulo>
-                <div className="content">
+               <Titulo Title="RestauApp">   </Titulo>
+               <Navigator>                  </Navigator>
+                <div className="container-fluid">
 
                 
-                </div>
-                <Navigator></Navigator>
-               
-
-              
+                
+                
+                </div>              
             </div>
         )
     }
